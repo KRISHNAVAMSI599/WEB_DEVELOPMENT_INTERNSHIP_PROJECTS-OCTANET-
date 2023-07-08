@@ -1,0 +1,65 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+</style>
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+section{
+    background-image: url("bg.jpg");
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+.main{
+    max: width 1100px;
+    margin:auto;
+}
+ul
+{
+list-style-type:none;
+float:right;
+margin: top 25px;
+}
+ul li{
+    display:inline-block;
+    border:1px solid transparent;
+
+}
+ul li a{
+    color:rgb(121, 16, 16);
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color:rgb(212, 119, 172);
+    color:black;
+    transition:0.6s ease
+}
+.article{
+    width: 40%;
+    margin:auto;
+    text-align:center;
+    transform: translateY(25vh);
+
+}
+.article h1{
+    font-size: 26px;
+    color:#060505;
+    letter-spacing: 1.0px;
+    font-weight:1500;
+    margin-bottom:20px;
+}
+.article .btn{
+    color:aquamarine;
+    padding:12px 25px;
+    letter_Spacing:1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(154, 41, 73);
+}
