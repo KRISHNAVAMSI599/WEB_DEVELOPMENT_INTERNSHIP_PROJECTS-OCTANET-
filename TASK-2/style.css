@@ -15,7 +15,7 @@ body{
     height: 100vh;
     background-repeat:no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: auto;
     display: flex;
     justify-content: center;
     align-items: center;
