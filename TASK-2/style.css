@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+body{
+    background-image: url("bg1.jpg");
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    /*background-size: contain; */
+    /*background-size:auto; */
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 1000;
+    color:rgb(14, 14, 14);
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+.todo-list{
+    width:450px;
+    padding:20px;
+    box-shadow:0 10px 40px #081510(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: rgb(182, 218, 224);
+}
+.list-head{
+    display:grid;
+    grid-template-columns:4fr 1fr;
+    gap:20px;
+}
+.entered-list{
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    font-size:16px;
+    outline: none;
+}
+.add-list{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(135, 184, 159);
+    outline:none;
+    font-size: 16px;
+    color:rgb(166, 215, 148)
+    cursor: pointer;
+    opacity: .6;
+    pointer-events: none;
+}
+.add-list.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.tasks
+{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.item{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px #120a03(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item p{
+    font-size: 16px;
+    font-weight: 1000;
+    color:black;
+    letter-spacing: 1px;
+
+}
+.item.completed p{
+    text-decoration: line-through;
+    color:#11111180;
+}
+.item-btn{
+    display: flex;
+    align-items: center ;
+    gap: 10px;
+
+}
+.item-btn i {
+    color: rgb(17, 12, 15);
+    font-size: 20px;
+    cursor: pointer;
+}
